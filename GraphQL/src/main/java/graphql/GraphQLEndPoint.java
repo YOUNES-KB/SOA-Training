@@ -1,4 +1,5 @@
-import com.coxautodev.graphql.tools.GraphQLResolver;
+package graphql;
+
 import com.coxautodev.graphql.tools.SchemaParser;
 import graphql.MutationResolver;
 import graphql.QueryResolver;

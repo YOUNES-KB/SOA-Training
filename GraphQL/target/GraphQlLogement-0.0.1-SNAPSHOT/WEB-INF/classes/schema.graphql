@@ -19,6 +19,19 @@ type MutationResolver {
         semestre: Int!
     ): Boolean
 
+    modifierUniteEnseignement(
+        code: Int!
+        domaine: String
+        responsable: String
+        credits: Int
+        semestre: Int
+    ): Boolean
+
+    supprimerUniteEnseignement(
+        code: Int!
+    ): Boolean
+
+
 }
 schema {
     query: QueryResolver
